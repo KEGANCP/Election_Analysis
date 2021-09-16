@@ -20,32 +20,37 @@ total_votes = 0
 candidate_options = []
 candidate_votes = {}
 
-
 # open the election results and read the file.
 with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
 
-    # Read the header now.
+    # Read the header row.
     headers = next(file_reader)
 
     # print each row in the CSV file
     for row in file_reader:
-        # 2. Add to the total vote count.
+        # add total vote count
         total_votes += 1
 
-    # print the candidate name from each row
-    candidate_name = row[2]
+        # print candidate name for each row
+        candidate_name = row[2]
 
-    # if the candidate does not match any existing candidate..
-    if candidate_name not in candidate_options:
+        # if candidate does not match any existing ..
+        if candidate_name not in candidate_options:
+            # Add it to the list of candidates
+            candidate_options.append(candidate_name)
+            # 2. Begin tracking candidate vote count.
+            candidate_votes[candidate_name] = 0
+        # add a vote to the candidates count
+        candidate_votes[candidate_name] += 1
 
-        # Add it to the list of candidates
-        candidate_options.append(candidate_name)
+# Determine the percentage of votes for each candidate by looping through counts
+# 1. Interate through the candidate list
+for candidate_name in candidate_votes:
+     # 2. Retrieve vote count of a candidate
+    votes = candidate_votes[candidate_name]
+    # 3. calculate the percentage of votes
+    vote_percentage = float(votes) / float(total_votes) * 100
 
-        # Track candidates voter count.
-        candidate_votes[candidate_name] = 0
-
-    # Add a vote to the candidates count
-    candidate_votes[candidate_name] += 1
-
-print(candidate_votes)
+# Print candidate name and percent.
+print(f"{candidate_name}: received {vote_percentage}% of the vote.")
