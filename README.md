@@ -11,6 +11,7 @@ Using our raw data set, we were able to identify our total number of votes of 36
 ### 
 The below image will provide a visual of these findings. This analysis is confirming 369,711 total votes were cast with the most votes (306,055), 82.8% of votes coming out of Denver, 10.5% from Jefferson, and 6.7% from Arapahoe.
 We were also able to consolidate the candidate data which resulted in Diana DeGette receiving the most votes with 272,892 and 73.8% of votes cast. Charles Casper Stockman received the second most votes at 85,213 and 23% of votes cast, and Raymon Anthony getting the least total votes at 11,606 and 3.1% of votes cast.
+
 ![This is an image](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/Election_results.png)
 
 ### Sample code
