@@ -13,4 +13,9 @@ The below image will prove a visual of these findings. This analysis is confirmi
 We were also able to consolidate the candidate data which resulted in Diana DeGette receiving the most votes with 272,892 and 73.8% of votes cast. Charles Casper Stockman received the second most votes at 85,213 and 23% of votes cast, and Raymon Anthony getting the least total votes at 11,606 and 3.1% of votes cast.
 ![This is an image](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/Election_results.png)
 
+### Sample code
+Below is an example of code that was created to identify the winner of the election by breaking down votes per each candidate, as well percentage of votes per candidate.
+![This is an image](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/sample_code_winning_candidate.png)
+
 ## Election Audit-Summary
+To conclude this analysis, it has become apparent that this script can be used for many future elections. Some modifications that can easily be generated to process other elections include replacing our current "county" column to other required categories that better fit the type of the election. This feature can become broader for larger elections. This script can also be utilized to quantify and show specific voter participation within each county. This would help candidates determine where to focus more of their funding and energy in campaigning for future elections. 
