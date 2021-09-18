@@ -8,3 +8,5 @@ Utilizing the [election_results](https://github.com/KEGANCP/Election_Analysis/bl
 
 ## Summary of Election Analysis
 Using our raw data set, we were able to identify our total number of votes of 369,711. We grew off of this finding to further our analysis and determine all of the candidates involved, as well as their total votes received and what percentage of total votes they received in this election. Once we identified all this data we were able to conclude our over all election winner, based on popular vote.
+![This is an image](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/candidate_results.png)
+![This is an image](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/election_winner.png)
