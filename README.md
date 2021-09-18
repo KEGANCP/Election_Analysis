@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Audit Overview
-Tom and Steve, representatives of the Colorado Board of Elections, requested assistance to accumulate results of a recent congressional election. After gathering results to display the total number of votes cast, including total votes for each candidate, we were able to qauntify these as percentages for each candidate and determine a winner of the election by popular vote. With further coding we were also able to include data specific to each counties voter turnout.
+Tom and Steve, representatives of the Colorado Board of Elections, requested assistance to accumulate results of a recent congressional election. After gathering results to display the total number of votes cast, including total votes for each candidate, we were able to quantify these as percentages for each candidate and determine a winner of the election by popular vote. With further coding we were also able to include data specific to each counties voter turnout.
 
 ## Election Data Resources
 Utilizing the [election_results](https://github.com/KEGANCP/Election_Analysis/blob/main/Resources/election_results.csv) data set within Python 3.8 along with Visual Studio Code 1.60 we were able to consolidate these requested results as shown below.
